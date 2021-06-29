@@ -47,20 +47,6 @@ function App() {
                                 Characters
                             </Typography>
                         </Grid>
-                        {/*   <Grid item xs={4} md={2}>
-                            <Typography component={NavLink} exact={true} className={classes.itemLink}
-                                        activeClassName={classes.active} to="/location"
-                                        color="inherit" variant="h6">
-                                Location
-                            </Typography>
-                        </Grid>
-                        <Grid item xs={4} md={2}>
-                            <Typography component={NavLink} exact={true} className={classes.itemLink}
-                                        activeClassName={classes.active} to="/episodes"
-                                        color="inherit" variant="h6">
-                                Episodes
-                            </Typography>
-                        </Grid>*/}
 
                     </Grid>
 
