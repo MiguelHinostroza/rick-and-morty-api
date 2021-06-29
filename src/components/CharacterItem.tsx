@@ -1,6 +1,6 @@
 import React, {FunctionComponent} from 'react';
 import {Result} from "../models/CharacterSearched";
-import {Box, Card, CardContent, CardMedia, makeStyles, Typography, useTheme} from "@material-ui/core";
+import {Box, Card, CardContent, CardMedia, makeStyles, Typography} from "@material-ui/core";
 import {useHistory} from "react-router-dom";
 
 interface OwnProps {
@@ -50,7 +50,7 @@ const useStyles = makeStyles(theme => ({
 
 const CharacterItem: FunctionComponent<Props> = ({character}) => {
     const classes = useStyles();
-    const theme = useTheme();
+    //const theme = useTheme();
     //const isLg = useMediaQuery(theme.breakpoints.up('lg'));
     const history = useHistory();
     const handleClick = () => {
