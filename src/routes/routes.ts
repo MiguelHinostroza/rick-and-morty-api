@@ -8,7 +8,7 @@ export default [
     {
         component: HomePage,
         name: 'home',
-        path: '/',
+        path: '/rick-and-morty-api',
         exact: true
     },
     {

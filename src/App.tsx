@@ -41,7 +41,7 @@ function App() {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography component={NavLink} exact={true} className={classes.itemLink}
-                                        activeClassName={classes.active} to="/" noWrap
+                                        activeClassName={classes.active} to="/rick-and-morty-api" noWrap
                                         color="inherit"
                                         variant="h6">
                                 Characters
